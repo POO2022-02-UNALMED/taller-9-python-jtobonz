@@ -16,7 +16,7 @@ def Clic(number):
 def Igual():
     res=eval(pantalla.get())
     pantalla.delete(0,END)
-    pantalla.insert(0,resultado)
+    pantalla.insert(0,res)
 
 # Configuración botones
 boton_1 = Button(root, text="1", width=9, height=3, bg="white", fg="red", borderwidth=0, cursor="hand2",command=lambda: Clic(1)).grid(row=1, column=0, padx=1, pady=1)
