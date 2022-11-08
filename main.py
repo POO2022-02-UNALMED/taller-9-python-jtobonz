@@ -2,12 +2,12 @@ from tkinter import *
 
 # Configuración ventana principal
 root = Tk()
-root.title("Calc Python")
+root.title("Calculadora POO")
 root.resizable(0,0)
-root.geometry("300x250")
+root.geometry("295x250")
 
 # Configuración pantalla de salida 
-pantalla = Entry(root, width=40, bg="black", fg="black", borderwidth=0, font=("arial", 18, "bold"))
+pantalla = Entry(root, width=40, bg="black", fg="white", borderwidth=0, font=("arial", 18, "bold"))
 pantalla.grid(row=0, column=0, columnspan=80, padx=1, pady=1)
 
 def Clic(number):
